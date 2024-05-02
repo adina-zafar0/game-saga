@@ -1,0 +1,77 @@
+/* .startCon{
+   
+    
+
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+.startCon{
+    height: 100vh;
+    width: 100vw;
+     background-image: url(/backround.jpg);
+}
+.heading{
+    
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size:3rem ;
+    text-align: center;
+} 
+.buttons{
+    display: flex;
+    flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 175px;
+  height: 35vh;
+}
+h1 {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+h1 {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+button {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+button {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+button{
+     height: 100px;
+   width: 500px;
+border-radius: 100px;
+margin: 5px;
+border: transparent;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 2rem;
+
+color:rgb(99, 98, 96);
+
+
+}
+
+.TicTacToe{
+    background-image: linear-gradient(rgb(224, 200, 91) , rgb(243, 121, 6));
+}
+.RockPaperScissor{
+    background-image: linear-gradient(rgb(152, 231, 107) , rgb(66, 124, 40));
+}
+.hide{
+    display: none;
+} 
